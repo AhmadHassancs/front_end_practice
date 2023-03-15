@@ -5,11 +5,12 @@ td{
     border: 1px solid black;
 } */
 
-table, th, td{
+/* table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
     border-radius: 10px;
-}
+    text-align: right;
+} */
 /* th, td{
     background-color: brown;
 } */
@@ -21,3 +22,50 @@ table, th, td{
     /* border-radius: 10px; */
     /* border-color: blue; */
 /* } */
+
+/* td{
+    text-align: center;
+}
+th{
+    text-align: center;
+} */
+
+/* table{
+    padding: auto;
+    border: 2px solid black;
+} */
+/* th{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+} */
+/* th, td {
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  } */
+
+/* th, td{
+    border: 2px solid black;
+    border-spacing: 30px;
+} */
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+/* td:nth-child(even){
+    background-color: aqua;
+}
+th:nth-child(even){
+    background-color: rgb(233, 23, 23);
+} */
+tr{
+    border-bottom: 1px solid black;
+}
+tr:hover{
+    background-color: blue;
+}
