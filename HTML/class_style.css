@@ -1,0 +1,15 @@
+.random{
+    background-color: blue;
+    color: aqua;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.crazzy{
+    background-color: brown;
+    color: chartreuse;
+    font-size: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
