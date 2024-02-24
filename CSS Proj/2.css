@@ -1,0 +1,25 @@
+/* h1{
+  background: rgba(255, 0, 0, 0.5);
+} */
+
+/* h1{
+  background: rgba(255, 0, 0, 0.5);
+  border-color: yellow;
+  border-width: medium;
+  border-style: dashed;
+} */
+
+h1{
+  background: rgba(255, 0, 0, 0.5);
+  border: 3px solid yellow
+}
+
+/* body{
+  background: green
+} */
+
+body{
+  background: url(https://t4.ftcdn.net/jpg/06/03/32/67/360_F_603326788_fdZ4PaIlLj8D1LxHW1j8RepoLWvAmjw3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

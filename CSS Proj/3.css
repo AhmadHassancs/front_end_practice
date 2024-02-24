@@ -1,0 +1,19 @@
+li{
+  border: 2px solid red
+}
+
+#selector{
+  background: red;
+}
+
+/* #selector_2{
+  background: blue;
+}
+
+#selector_3{
+  background: yellow;
+} */
+
+.underline{
+  text-decoration: underline;
+}
