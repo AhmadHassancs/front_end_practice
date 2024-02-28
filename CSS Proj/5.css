@@ -1,0 +1,16 @@
+/* div{
+  width: 200px;
+  height: 200px;
+  border: 10px solid green;
+} */
+
+div{
+  width: 200px;
+  height: 200px;
+  border: 5px solid green;
+  padding-left: 70px;
+  padding-right: 55px;
+  padding-top: 65px;
+  padding-bottom: 50;
+  margin: 75px;
+}

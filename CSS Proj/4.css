@@ -1,0 +1,35 @@
+/* h1{
+  font-family: fantasy;
+  font-size: 40px;
+  text-align: center;
+}
+
+p{
+  font-family: Tahoma;
+  font-style: normal;
+  font-size: 20px;
+}
+
+span{
+  font-weight: bold;
+} */
+
+h1{
+  font-family: fantasy;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: overline;
+}
+
+p{
+  font-family: Tahoma;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: underline;
+  line-height: 1;
+  text-align: justify;
+}
+
+span{
+  font-weight: bold;
+}
