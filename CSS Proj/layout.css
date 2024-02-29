@@ -1,0 +1,33 @@
+body{
+  border: 15px green solid;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+h1{
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a{
+  color: blue;
+  font-weight: bold;
+}
+
+p{
+text-align: justify;
+}
+
+.p2{
+  text-decoration: underline;
+  text-align: justify;
+}
+
+img{
+  float: left;
+}
+
+div{
+  margin: 20px;
+}
