@@ -1,0 +1,35 @@
+/* .box1{
+  width: 150px;
+  height: 150px;
+  border: 5px solid blue;
+  padding: 10px;
+} */
+
+.box1{
+  width: 150px;
+  height: 150px;
+  border: 5px solid blue;
+  padding: 10px;
+  /* box-sizing: content-box; */
+}
+
+.box2{
+  width: 150px;
+  height: 150px;
+  border: 5px solid red;
+  padding: 10px;
+  /* box-sizing: border-box; */
+}
+
+/* this is universal selector: "*", box sizing can be done with this as well*/
+/* *{
+  box-sizing: border-box;
+} */
+
+/* you can also use html with inherit, to effect the entire page */
+html{
+  box-sizing: border-box;
+}
+*{
+  box-sizing: inherit;
+}
