@@ -1,0 +1,85 @@
+.flexContainer{
+border: 2px solid blue;
+display: flex;
+flex-direction: row;
+/* flex-direction: row-reverse; */
+/* flex-direction: column; */
+/* flex-direction: column-reverse; */
+}
+
+/* we can set the order for the boxes */
+
+/* .box1{
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  order: 3;
+}
+
+.box2{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  order: 1;
+}
+
+.box3{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.box4{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+} */
+
+/* .box1{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  /* order: 3; */
+  /* flex-grow: 1; */
+  /* there's also flex shrink */
+  /* flex-shrink: 1; */
+/* } */
+
+/* .box2{
+  width: 100px;
+  height: 100px;
+  background-color: red; */
+  /* order: 1; */
+  /* flex-grow: 1; */
+/* }
+
+.box3{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  flex-grow: 1;
+} */
+
+/* .box4{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  flex-grow: 2
+} */
+
+.box1{
+  background-color: pink;
+  margin: 8px;
+  flex-basis: 100%;
+}
+
+.box2{
+  background-color: yellow;
+  margin: 8px;
+  flex-basis: 100%;
+}
+.box3{
+  background-color: green;
+  margin: 8px;
+  flex-basis: 100%;
+}
