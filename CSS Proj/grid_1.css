@@ -1,4 +1,4 @@
-.container{
+/* .container{
   border: 1px solid blue;
   padding: 10px;
   display:grid;
@@ -8,4 +8,63 @@
 .box{
   background-color: orange;
   border: 1px solid green
+} */
+
+                              /* Day 2 - 8/3/2024 */ 
+
+.container{
+order: 1px solid blue;
+padding: 10px;
+display:grid;
+grid-template: 100px 200px 300px / 1fr 3fr 1fr;
+grid-gap: 10px;
+/* grid-template-areas: "A C B" "D E F" "G H I" */
+/* grid-template-areas:"A A B"
+                    "D E I"
+                    "G H I" */
+grid-template-areas:"A A B"
+                    "D E I"
+                    "G H I"
+                    "C C F"
+}
+
+.box{
+background-color: orange;
+border: 1px solid green
+}
+
+.box1{
+  grid-area: A;
+}
+
+.box2{
+  grid-area: B;
+}
+
+.box3{
+  grid-area: C;
+}
+
+.box4{
+  grid-area: D;
+}
+
+.box5{
+  grid-area: E;
+}
+
+.box6{
+  grid-area: F;
+}
+
+.box7{
+  grid-area: G;
+}
+
+.box8{
+  grid-area: H;
+}
+
+.box9{
+  grid-area: I;
 }
